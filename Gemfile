@@ -41,6 +41,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+  gem 'selenium-webdriver'
 end
 
 # Use ActiveModel has_secure_password
@@ -53,4 +54,4 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
